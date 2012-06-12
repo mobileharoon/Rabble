@@ -1,0 +1,130 @@
+.fill2{
+        border: 1px solid #000000;
+        border-collapse: collapse;
+        padding: 5px;
+        font: 8pt verdana, arial, sans-serif;
+        font-weight: bold;
+        color: #FFFFFF;
+        background: #0111AB;
+}
+.hart{
+        margin-top: 5px;
+        width: 625px;
+        border: 1px solid #000000;
+        border-collapse: collapse;
+}
+.chart{
+        margin-top: 5px;
+        padding: 5px;
+        font: 8pt verdana, arial, sans-serif;
+        border: 1px solid #000000;
+        background: #FFF;
+        border-collapse: collapse;
+}
+.chart2{
+        margin-top: 5px;
+        padding: 5px;
+        width: 150px;
+        font: 8pt verdana, arial, sans-serif;
+        border: 1px solid #000000;
+        background: #FFF;
+        border-collapse: collapse;
+}
+a:link{
+        color: #0111AB;
+}
+
+a:visited{
+        color: #0111AB;
+}
+
+a:hover{
+        color: #981A36;
+}
+.blist{
+        border: 1px solid #000000;
+        width: 640px;
+        padding: 5px;
+        font: 8pt verdana, arial, sans-serif;
+        font-weight: bold;
+        background: #A3A3A3;
+}
+.footer{
+        margin: 12px;
+        cellspacing: 10px;
+        padding: 5px;
+        padding-right: 0px;
+        font: 8pt verdana, arial, sans-serif;
+        font-weight: bold;
+}
+.pic{
+        margin: 1px;
+        border: 1px solid #000000;
+        border-collapse: collapse;
+}
+.banner{
+        border-collapse: collapse;
+        width: 650px;
+}
+.fill{
+        border: 1px solid #000000;
+        border-collapse: collapse;
+        padding: 6px;
+        font: 8pt verdana, arial, sans-serif;
+        font-weight: bold;
+        color: #FFFFFF;
+        background: #981A36;
+}
+
+a.fill:active{
+        text-decoration: none;
+        color: #FFFFFF;
+}
+a.fill:link{
+        text-decoration: none;
+        color: #FFFFFF;
+}
+a.fill:visited{
+        text-decoration: none;
+        color: #FFFFFF;
+}
+a.fill:hover{
+        background: #0111AB;
+        text-decoration: none;
+        color: #FFFFFF;
+}
+.empty{
+        border: 1px solid #000000;
+        border-top-width:0px;
+        border-collapse: collapse;
+        padding: 3px;
+        width: 10px;
+        color: #FFFFFF;
+        background: #FFFFFF;
+}
+.empty2{
+        font: 14pt verdana, arial, sans-serif;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-top-width:0px;
+        border-left-width:0px;
+        border-collapse: collapse;
+        width: 120px;
+        background: #FFFFFF;
+}
+.main{
+        font: 8pt verdana, arial, sans-serif;
+        border: 1px solid #000000;
+        border-collapse: collapse;
+        height: 380px;
+        width: 600px;
+        padding: 10px;
+        background: #E1E1E1;
+}
+.head{
+        font: 12pt verdana, arial, sans-serif;
+        font-weight: bold;
+}
+.main2{
+        font: 8pt verdana, arial, sans-serif;
+}

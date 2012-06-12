@@ -1,0 +1,473 @@
+/*
+/////////////////////////////////////
+////////ADMIN MENU//////////////////
+///////////////////////////////////
+*/
+
+#navcontaineradmin ul
+{
+padding-left: 0;
+margin-left: 0;
+margin-top: 0;
+margin-bottom: 0;
+background-color: #003366;
+color: White;
+float: left;
+width: 100%;
+font-family: arial, helvetica, sans-serif;
+}
+
+#navcontaineradmin ul li { 
+width: 150px;
+display: inline; 
+font-size: 12px;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+}
+
+#navcontaineradmin ul li a
+{
+padding: 0.3em 0.4em;
+background-color: #003366;
+color: White;
+text-decoration: none;
+float: left;
+border-right: 1px solid #fff;
+}
+
+#navcontaineradmin ul li a:hover
+{
+background-color: #336699;
+color: #fff;
+}
+
+/*
+/////////////////////////////////////
+////////NON-ADMIN MENU//////////////
+///////////////////////////////////
+*/
+
+#navcontainer ul
+{
+padding-left: 0;
+margin-left: 0;
+margin-top: 0;
+margin-bottom: 0;
+background-color: #003366;
+color: White;
+float: left;
+width: 100%;
+font-family: arial, helvetica, sans-serif;
+}
+
+#navcontainer ul li {
+width: 150px;
+display: inline;
+font-size: 12px;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+}
+
+#navcontainer ul li a
+{
+padding: 0.3em 2em;
+background-color: #003366;
+color: White;
+text-decoration: none;
+float: left;
+border-right: 1px solid #fff;
+}
+
+#navcontainer ul li a:hover
+{
+background-color: #336699;
+color: #fff;
+}
+
+
+/*
+/////////////////////////////////////
+////////OTHER STUFF/////////////////
+///////////////////////////////////
+*/
+
+
+body { 
+background-color: #DFDBC2; 
+}
+
+.maintable{
+margin-top: 20px;
+width: 800px;
+height: 100%;
+background-color: #FFFFFF;
+border: solid 25px #FFFFFF;
+
+}
+
+
+#LOGOFF {
+margin-top: 300px;
+width: 900px;
+background-color: #FFFFFF;
+padding: 25px;
+}
+
+#admin {
+margin-top: 25px;
+margin-left: 30px;
+border-collapse: collapse;
+}
+
+#button {
+margin-top: 5px;
+margin-bottom: 5px;
+font-size: 12px;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+color: #000000;
+background-color: #CCCCCC;
+border:1px solid;
+border-color: #000000;
+}
+
+
+#footer {
+margin-top: 40px;
+background-color: #831E3B;
+width: 690px;
+height: 10px;
+}
+
+#edit {
+padding: 5px;
+border: 1px solid #000000;
+border-collapse: collapse;
+}
+
+
+#editbad {
+font-size: 12px;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+font-weight: bold;
+color: #831E3B;
+}
+
+#editbad a:link {
+font-size: 12px;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+font-weight: bold;
+color: #000000;
+}
+
+#editbad a:active {
+font-size: 12px;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+font-weight: bold;
+color: #000000;
+}
+
+#editbad a:visited {
+font-size: 12px;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+font-weight: bold;
+color: #000000;
+}
+
+#editbad a:hover {
+font-size: 12px;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+font-weight: bold;
+color: #831E3B;
+}
+
+.banner {
+background-color: #831E3B;
+margin-left: 0;
+}
+
+.stit{
+padding-top: 50px;
+font-size: 20px;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+font-weight: bold;
+color: #003366;
+}
+
+.sver{
+padding-bottom: 0px;
+font-size: 20px;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+font-weight: bold;
+color: #831E3B;
+}
+
+.first{
+padding-top: 50px;
+font-size: 20px;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+font-weight: bold;
+color: #000000;
+}
+
+
+
+/*
+/////////////////////////////////////
+////////NEW STUFF///////////////////
+///////////////////////////////////
+*/
+
+/* For many tables w/ basic setup of border and collapse */
+.change{
+border: 1px solid #000000;
+border-collapse: collapse;
+font-size: 14px;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+font-weight: bold;
+}
+
+/* For many tables w/ basic setup of border and collapse */
+.admintable{
+border: 1px solid #000000;
+border-collapse: collapse;
+font-size: 14px;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+font-weight: bold;
+width: 750px;
+}
+
+/* Bold font on admin/steps pages */
+.adminheader{
+font-size: 16px;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+font-weight: bold;
+color: #831E3B;
+margin-bottom: 3px;
+margin-top: 3px;
+}
+
+/* Blinking text on steps */
+.adminblink{
+font-size: 16px;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+font-weight: bold;
+color: #831E3B;
+margin-bottom: 3px;
+margin-top: 3px;
+text-decoration: blink;
+}
+
+
+/* For table results data printout */
+.list{
+border: 1px solid #000000;
+border-collapse: collapse;
+font-size: 12px;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+font-weight: normal;
+text-align: center;
+}
+
+/* For table results data printout software TITLE*/
+.longlist{
+border: 1px solid #000000;
+border-collapse: collapse;
+font-size: 12px;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+font-weight: normal;
+}
+
+
+/* For big bold titles on each page */
+.title{
+margin-top: 10px;
+font-size: 36px;
+font-weight: bold;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+color: #003366;
+margin-bottom: 3px;
+}
+
+/* All small basic text */
+.text{
+margin-top: 5px;
+margin-bottom: 10px;
+font-size: 12px;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+display: inline;
+}
+
+/* Text - links */
+.text a:link {
+color: #000000;
+text-decoration: underline;
+}
+
+/* Text - active link */
+.text a:active {
+color: #000000;
+text-decoration: underline;
+}
+
+/* Text - visited link */
+.text a:visited {
+text-decoration: none;
+color: #000000;
+text-decoration: underline;
+}
+
+/* Text - hover link */
+.text a:hover {
+text-decoration: underline;
+color: #831E3B;
+}
+
+/* Top of STATS tables filled cell color */
+.stats{
+border: 1px solid #000000;
+border-collapse: collapse;
+padding: 5px;
+font-size: 12px;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+font-weight: bold;
+color: #FFFFFF;
+background: #831E3B;
+width: 125px;
+text-align: center;
+}
+
+/* Top of tables filled cell color LONG*/
+.long{
+border: 1px solid #000000;
+border-collapse: collapse;
+padding: 5px;
+font-size: 12px;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+font-weight: bold;
+color: #FFFFFF;
+background: #831E3B;
+width: 350px;
+}
+
+/* Top of tables filled cell color MIDDLE*/
+.tiny{
+border: 1px solid #000000;
+border-collapse: collapse;
+padding: 5px;
+font-size: 12px;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+font-weight: bold;
+color: #FFFFFF;
+background: #831E3B;
+width: 75px;
+text-align: center;
+}
+
+/* Top of tables filled cell color AVG*/
+.middle{
+border: 1px solid #000000;
+border-collapse: collapse;
+padding: 5px;
+font-size: 12px;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+font-weight: bold;
+color: #FFFFFF;
+background: #831E3B;
+width: 200px;
+text-align: center;
+}
+
+
+/* Top of tables filled cell color SHORT*/
+.short{
+border: 1px solid #000000;
+border-collapse: collapse;
+padding: 5px;
+font-size: 12px;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+font-weight: bold;
+color: #FFFFFF;
+background: #831E3B;
+width: 100px;
+text-align: center;
+}
+
+/* For Numbers cell in results table */
+.number{
+font-size: 12px;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+border: 1px solid #000000;
+background: #CCCCCC;
+border-collapse: collapse;
+width: 20px;
+}
+
+
+/* Green - Left */
+.good {
+padding: 5px;
+border: 1px solid #000000;
+border-collapse: collapse;
+color: #FFFFFF;
+background-color: #00D40A;
+text-align: center;
+}
+
+/* Dark Red - Left */
+.baddest {
+padding: 5px;
+border: 1px solid #000000;
+border-collapse: collapse;
+color: #FFFFFF;
+background-color: #CC0033;
+text-align: center;
+}
+
+/* Red - Left */
+.badder {
+padding: 5px;
+border: 1px solid #000000;
+border-collapse: collapse;
+color: #FFFFFF;
+background-color: #B45050;
+text-align: center;
+}
+
+/* Light Red - Left */
+.bad {
+padding: 5px;
+border: 1px solid #000000;
+border-collapse: collapse;
+color: #FFFFFF;
+background-color: #B78383;
+text-align: center;
+}
+
+/* Grey - Left */
+.grey {
+padding: 5px;
+border: 1px solid #000000;
+border-collapse: collapse;
+color: #FFFFFF;
+background-color: #666666;
+text-align: center;
+}
+
+/* Grey - Left */
+.unlimited{
+margin-top: 5px;
+padding: 5px;
+font-weight: bold;
+font-size: 12px;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+border: 1px solid #000000;
+background: #666666;
+border-collapse: collapse;
+color: #FFF;
+text-align: center;
+}
+
+/* Footer Text */
+.footertext{
+margin-top: 10px;
+font-size: 12px;
+font-family : "Trebuchet MS", arial, helvetica, sans-serif;
+}
